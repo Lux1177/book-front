@@ -1,0 +1,15 @@
+<script setup>
+
+</script>
+
+<template>
+    <h2 class="text-2xl font-extrabold mb-5">O'tkan kunlar</h2>
+    <p class="py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis dolore eius eligendi, eum excepturi incidunt labore libero molestiae nulla officia officiis, placeat porro quisquam repellendus repudiandae saepe veniam voluptate!</p>
+    <p class="py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut consequuntur corporis deserunt enim error facere fuga fugiat in libero, natus nesciunt odit voluptate! Dolorum eaque, nemo! A adipisci amet, architecto aspernatur debitis delectus deserunt doloremque, doloribus eaque earum exercitationem expedita facere harum, illo inventore ipsam iste itaque iure laboriosam laborum libero magnam nemo neque nostrum numquam odio officiis perspiciatis provident quae quia recusandae repellendus repudiandae rerum tempora unde veritatis voluptatibus. Assumenda atque consequatur delectus distinctio dolore error est expedita harum illum magni maiores nobis optio placeat porro, quasi, qui repudiandae saepe similique tempora temporibus? Ad ducimus ratione vitae voluptatibus.</p>
+    <p class="py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut consequuntur corporis deserunt enim error facere fuga fugiat in libero, natus nesciunt odit voluptate! Dolorum eaque, nemo! A adipisci amet, architecto aspernatur debitis delectus deserunt doloremque, doloribus eaque earum exercitationem expedita facere harum, illo inventore ipsam iste itaque iure laboriosam laborum libero magnam nemo neque nostrum numquam odio officiis perspiciatis provident quae quia recusandae repellendus repudiandae rerum tempora unde veritatis voluptatibus. Assumenda atque consequatur delectus distinctio dolore error est expedita harum illum magni maiores nobis optio placeat porro, quasi, qui repudiandae saepe similique tempora temporibus? Ad ducimus ratione vitae voluptatibus.</p>
+    <p class="py-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut consequuntur corporis deserunt enim error facere fuga fugiat in libero, natus nesciunt odit voluptate! Dolorum eaque, nemo! A adipisci amet, architecto aspernatur debitis delectus deserunt doloremque, doloribus eaque earum exercitationem expedita facere harum, illo inventore ipsam iste itaque iure laboriosam laborum libero magnam nemo neque nostrum numquam odio officiis perspiciatis provident quae quia recusandae repellendus repudiandae rerum tempora unde veritatis voluptatibus. Assumenda atque consequatur delectus distinctio dolore error est expedita harum illum magni maiores nobis optio placeat porro, quasi, qui repudiandae saepe similique tempora temporibus? Ad ducimus ratione vitae voluptatibus.</p>
+</template>
+
+<style scoped>
+
+</style>
