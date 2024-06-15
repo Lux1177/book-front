@@ -50,6 +50,14 @@ const routes = [
         },
         beforeEnter: ifAuthorized
     },
+    {
+        path: '/book/add',
+        component: ()=> import('@/pages/BookCreate.vue'),
+        meta: {
+            layout: defineAsyncComponent(()=> import('@/layouts/DefaultLayout.vue')),
+        },
+        beforeEnter: ifAuthorized
+    },
 ]
 
 export default createRouter({

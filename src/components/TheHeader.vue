@@ -17,10 +17,10 @@ function logout() {
             <router-link to="/" class="p-3 cursor-pointer hover:text-gray-500">Bosh sahifa</router-link>
             <li class="p-3 cursor-pointer hover:text-gray-500">Kitoblar</li>
             <li class="p-3 cursor-pointer hover:text-gray-500">Bestsellerlar</li>
+            <router-link to="/book/add" class="p-3 cursor-pointer hover:text-gray-500" >Kitob qo'shish</router-link>
             <li class="p-3 cursor-pointer hover:text-gray-500">Shaxsiy kabinet</li>
             <li @click="logout" class="p-3 cursor-pointer hover:text-gray-500">Chiqish</li>
         </ul>
-
     </header>
 </template>
 

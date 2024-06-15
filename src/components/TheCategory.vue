@@ -7,7 +7,6 @@ category().fetchCategories()
 
 const fetchedCategories = computed(() => category().getCategories)
 
-console.log(fetchedCategories)
 
 </script>
 

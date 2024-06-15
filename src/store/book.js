@@ -44,6 +44,22 @@ export const book = defineStore('book', {
                         reject()
                 } )
             })
+        },
+        createBook(data) {
+            return new Promise((resolve, reject) => {
+                axios.post('http://localhost:8888/api/books', data)
+                    .then(response => {
+                        console.log('Kitob joylandi')
+                        console.log(response)
+
+                        resolve()
+
+                    }).catch(() => {
+                        console.log('Kitob joylashda xatolik yuz berdi')
+
+                        reject()
+                })
+            })
         }
     },
     state() {
