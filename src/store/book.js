@@ -47,7 +47,11 @@ export const book = defineStore('book', {
         },
         createBook(data) {
             return new Promise((resolve, reject) => {
-                axios.post('http://localhost:8888/api/books', data)
+                axios.post('http://localhost:8888/api/books', data, {
+                    headers: {
+                        'Content-Type': 'application/ld+json',
+                    }
+                })
                     .then(response => {
                         console.log('Kitob joylandi')
                         console.log(response)

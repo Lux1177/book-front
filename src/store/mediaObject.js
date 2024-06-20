@@ -6,11 +6,11 @@ export const mediaObject = defineStore('mediaObject', {
         createImage(data) {
             return new Promise((resolve, reject) => {
                 axios.post('http://localhost:8888/api/media_objects', data)
-                    .then(response => {
+                    .then((response) => {
                         console.log('Rasm yuklandi')
                         console.log(response)
 
-                        this.image = response.data
+                        this.image = response.data.id
 
                         resolve()
                     }).catch(() => {
