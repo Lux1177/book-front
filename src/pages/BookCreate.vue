@@ -43,7 +43,6 @@ function addBook() {
 </script>
 
 <template>
-
     <div class="grid grid-cols-12">
         <div class="col-span-12 text-2xl font-bold text-gray-800">
             Kitob qo'shing
@@ -81,12 +80,15 @@ function addBook() {
                 class="mb-3 border-gray-600 rounded w-full bg-gray-700 p-2.5 text-white"
             />
         </div>
+
         <div class="col-span-8">
-            <select v-model="newBook.category"
-                    class="mb-3 border-gray-600 rounded w-full bg-gray-700 p-2.5 text-white">
-                <option v-for="category of fetchedCategories" :key="category.id" :value="category['@id']" >{{ category.name }}</option>
+            <select v-model="newBook.category" class="mb-3 border-gray-600 rounded w-full bg-gray-700 p-2.5 text-white">
+                <option v-for="category of fetchedCategories" :key="category.id" :value="'/api/categories/' + category.id" >{{ category.name }}</option>
+
             </select>
         </div>
+
+
         <div class="col-span-8">
             <input @change="selectImage($event)" type="file"
                    placeholder="Kitob rasmini joylang"

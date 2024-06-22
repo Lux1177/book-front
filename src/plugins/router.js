@@ -58,6 +58,14 @@ const routes = [
         },
         beforeEnter: ifAuthorized
     },
+    {
+        path: '/registration',
+        component: ()=> import('@/pages/SignUpPage.vue'),
+        meta: {
+            layout: defineAsyncComponent(()=> import('@/layouts/BlankLayout.vue')),
+        },
+        beforeEnter: ifNotAuthorized
+    },
 ]
 
 export default createRouter({
