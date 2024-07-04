@@ -18,6 +18,6 @@ export const authorization = defineStore('authorization', {
                     reject()
                 })
             })
-        }
+        },
     }
 })

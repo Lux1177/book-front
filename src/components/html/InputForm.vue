@@ -22,6 +22,9 @@ defineProps({
         type: String,
         default: 'name@company.com'
     },
+    inputPattern: {
+        type: String,
+    }
 })
 
 defineEmits(['update:modelValue'])
@@ -33,6 +36,7 @@ defineEmits(['update:modelValue'])
     <input class="mb-3 border-gray-600 rounded w-full bg-gray-700 p-2.5 text-white" :type="inputType" :name="inputName"
            :id="inputId"
            :placeholder="inputPlaceholder" required
+           :pattern="inputPattern"
            @input="$emit('update:modelValue', $event.target.value)"
     />
 </template>

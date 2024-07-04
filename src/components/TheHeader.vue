@@ -17,6 +17,7 @@ function logout() {
             <li class="p-3 cursor-pointer hover:text-gray-500">Bestsellerlar</li>
             <router-link to="/book/add" class="p-3 cursor-pointer hover:text-gray-500" >Kitob qo'shish</router-link>
             <li class="p-3 cursor-pointer hover:text-gray-500">Shaxsiy kabinet</li>
+            <router-link to="/category/set" class="p-3 cursor-pointer hover:text-gray-500">Kategoriya</router-link>
             <li @click="logout" class="p-3 cursor-pointer hover:text-gray-500">Chiqish</li>
         </ul>
     </header>

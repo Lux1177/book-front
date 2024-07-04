@@ -84,7 +84,6 @@ function addBook() {
         <div class="col-span-8">
             <select v-model="newBook.category" class="mb-3 border-gray-600 rounded w-full bg-gray-700 p-2.5 text-white">
                 <option v-for="category of fetchedCategories" :key="category.id" :value="'/api/categories/' + category.id" >{{ category.name }}</option>
-
             </select>
         </div>
 

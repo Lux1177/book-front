@@ -66,6 +66,14 @@ const routes = [
         },
         beforeEnter: ifNotAuthorized
     },
+    {
+        path: '/category/set',
+        component: ()=> import('@/pages/CategorySetPage.vue'),
+        meta: {
+            layout: defineAsyncComponent(()=> import('@/layouts/DefaultLayout.vue')),
+        },
+        beforeEnter: ifAuthorized
+    },
 ]
 
 export default createRouter({

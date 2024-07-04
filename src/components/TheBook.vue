@@ -25,7 +25,7 @@ const books = computed(() => book().getBooks)
 </script>
 
 <template>
-    <div v-for="book of books" class="col-span-1 bg-gray-100 border rounded-xl overflow-hidden shadow-lg">
+    <div v-for="book of books" class="col-span-1  bg-gray-100 border rounded-xl overflow-hidden shadow-lg">
         <img :src="'http://localhost:8888' + book.image.contentUrl" alt="#">
         <div>
             <h5 class="font-bold text-2xl px-2">{{ book.name }}</h5>
@@ -39,7 +39,7 @@ const books = computed(() => book().getBooks)
 
 img{
     width: 100%;
-    height: 500px;
+    height: 320px;
 }
 
 </style>

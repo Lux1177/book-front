@@ -50,7 +50,7 @@ function login() {
                             @click="login"
                             type="button"
                             class="text-white bg-blue-800 font-bold w-full py-2.5 rounded hover:bg-blue-600 focus:ring">
-                            Kirish-
+                            Kirish
                         </button>
                     </form>
                 </div>
